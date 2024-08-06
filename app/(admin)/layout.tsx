@@ -11,7 +11,7 @@ function AdminLayout({
       <Nav />
       <div className="flex flex-col lg:flex-row bg-neutral-200">
         <Sidebar />
-        <div className="flex-1 flex justify-center lg:justify-start items-start max-w-5xl mx-auto w-full">
+        <div className="flex-1 flex justify-center lg:justify-start items-start max-w-5xl mx-auto w-full h-full">
           {children}
         </div>
       </div>
