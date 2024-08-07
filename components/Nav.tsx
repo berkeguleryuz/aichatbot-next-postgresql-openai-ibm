@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <header className="bg-white shadow-sm text-gray-800 flex justify-between p-4">
       <Link href={"/"} className="flex items-center text-4xl font-thin gap-2 sm:gap-4">
-        <Avatar seed="Clodron Global" />
+        {/* <Avatar seed="Clodron Global" /> */}
         <div className="space-y-1">
           <Image 
             src="/logo.png"
